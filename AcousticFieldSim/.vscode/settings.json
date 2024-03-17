@@ -1,0 +1,19 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jars/gluegen.jar",
+        "jars/gluegen-rt.jar",
+        "jars/gluegen-rt-natives-linux-amd64.jar",
+        "jars/gluegen-rt-natives-linux-i586.jar",
+        "jars/gluegen-rt-natives-macosx-universal.jar",
+        "jars/gluegen-rt-natives-windows-amd64.jar",
+        "jars/gluegen-rt-natives-windows-i586.jar",
+        "jars/jogl-all.jar",
+        "jars/jogl-all-natives-linux-amd64.jar",
+        "jars/jogl-all-natives-linux-i586.jar",
+        "jars/jogl-all-natives-macosx-universal.jar",
+        "jars/jogl-all-natives-windows-amd64.jar",
+        "jars/jogl-all-natives-windows-i586.jar",
+        "jars/jSerialComm-2.6.2-someOsRemoved.jar"
+    ]
+}

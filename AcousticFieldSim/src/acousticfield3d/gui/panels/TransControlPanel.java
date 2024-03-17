@@ -266,7 +266,7 @@ public class TransControlPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_durationsButtonActionPerformed
 
     private void connectExtraButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_connectExtraButtonActionPerformed
-        final DeviceConnection dc = getDeviceConnection(-1);
+        final DeviceConnection dc = getDeviceConnection(SerialComms.listAndSelectPortIndex());
         dc.setNumber( Parse.toInt( extraNumberText.getText() ));
         extraDevices.add(dc);
     }//GEN-LAST:event_connectExtraButtonActionPerformed
